@@ -11,7 +11,7 @@ class Main {
         for (int i = a; i < b; i++) {
             result *= i;
         }
-        
+
         System.out.println(result);
     }
 }
