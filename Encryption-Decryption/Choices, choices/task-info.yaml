@@ -211,6 +211,30 @@ files:
 
     }
   learner_created: false
+- name: output.txt
+  visible: true
+  text: 111122223333
+  learner_created: true
+- name: src/encryptdecrypt/ReadingFile.java
+  visible: true
+  text: |-
+    package encryptdecrypt;
+
+    import java.io.IOException;
+    import java.nio.file.Files;
+    import java.nio.file.Paths;
+
+    public class ReadingFile {
+        public static String readFileAsString(String roadToTreasure) {
+            try {
+                return new String(Files.readAllBytes(Paths.get(roadToTreasure)));
+            } catch (IOException e) {
+                System.out.println("Error " + e.getMessage());
+                return "";
+            }
+        }
+    }
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/46/stages/250/implement
 status: Unchecked
 record: -1
