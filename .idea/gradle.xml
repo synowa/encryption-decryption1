@@ -34,12 +34,14 @@
             <option value="$PROJECT_DIR$/Problems/Number of occurrences" />
             <option value="$PROJECT_DIR$/Problems/Overloading methods" />
             <option value="$PROJECT_DIR$/Problems/Palindrome" />
+            <option value="$PROJECT_DIR$/Problems/Phone" />
             <option value="$PROJECT_DIR$/Problems/Preparing full name" />
             <option value="$PROJECT_DIR$/Problems/Print" />
             <option value="$PROJECT_DIR$/Problems/Sorting arrays" />
             <option value="$PROJECT_DIR$/Problems/String to double conversion" />
             <option value="$PROJECT_DIR$/Problems/The product of numbers from a to b" />
             <option value="$PROJECT_DIR$/Problems/The sum of number in a file" />
+            <option value="$PROJECT_DIR$/Problems/Time" />
             <option value="$PROJECT_DIR$/Problems/World population" />
             <option value="$PROJECT_DIR$/util" />
           </set>
